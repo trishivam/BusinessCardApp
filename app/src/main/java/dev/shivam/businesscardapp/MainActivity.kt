@@ -106,7 +106,7 @@ fun BusinessCard(
             Column {
                 ContactInfoRow(icon = Icons.Filled.Call, text = phoneNumber)
                 ContactInfoRow(icon = Icons.Filled.Share, text = twitterHandle)
-                ContactInfoRow(icon = Icons.Filled.Email, text = "trishivam64@gmail.com")
+                ContactInfoRow(icon = Icons.Filled.Email, text = email)
             }
         }
     }
