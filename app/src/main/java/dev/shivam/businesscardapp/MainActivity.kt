@@ -129,10 +129,3 @@ fun ContactInfoRow(icon: ImageVector, text: String) {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun ContactInfoRowPreview() {
-    BusinessCardAppTheme {
-        ContactInfoRow(icon = Icons.Filled.Info, text = "Info")
-    }
-}
